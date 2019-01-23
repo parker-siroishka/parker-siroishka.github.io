@@ -1,4 +1,120 @@
-html {
+body {
 	background: url(media/background-image.jpg) no-repeat center center fixed;
 	background-size: cover;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	transform: translateY(0%);
+	text-align: center;
+	width: 95%;
+	height: 300px;
+}
+
+.header {
+	font-family: 'Raleway';
+	color: white;
+	font-weight: 30;
+	font-size: 500%;
+	margin-bottom: 0;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.link-header {
+	font-family: 'Raleway';
+	color: #a8be7e;
+	font-weight: 30;
+	font-size: 500%;
+	margin-bottom: 0;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.greeting {
+	font-family: 'Montserrat';
+}
+
+.text-container {
+	overflow-y: scroll;
+	position: fixed;
+	height: 82%;
+	width: 70%;
+	background: #F2F7F3;
+    left: 50%;
+	transform: translateX(-50%);
+	border-radius: 15px;
+}
+
+.container-contents {
+	margin-left: 18px;
+}
+
+.inline {
+	display: inline;
+	color:#79895b;
+}
+
+.aside {
+	margin-left: 10px;
+	font-weight: 600;
+	color: #475233
+}
+
+.experience {
+	width: 50%;
+	background-color: #475233;
+	height: 1px;
+	margin-left: 0;
+}
+
+
+.home-page {
+	width: 400px;
+	height: 1px;
+	background-color: white;
+}
+
+h2 {
+	font-family: 'Raleway';
+	font-size:300%;
+	margin-bottom: 0;
+	color: #30352E;
+}
+
+p {
+	font-family: 'Montserrat';
+	font-size: 15px;
+	color: #2b3b0d;
+}
+
+h3, h4{
+	font-family: 'Raleway';
+	color: white;
+	font-weight: 30;
+	margin-top: 0;
+
+}
+
+li {
+	display: inline;
+	padding-right: 40px;
+	font-family: 'Montserrat';
+}
+
+ul {
+	text-align: center;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	height: 10px;
+	width: 10px;
+	font-size: 20px;
+}
+
+a:hover {
+	color: grey;
 }
