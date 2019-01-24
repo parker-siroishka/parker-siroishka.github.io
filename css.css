@@ -41,7 +41,7 @@ body {
 	position: fixed;
 	height: 82%;
 	width: 70%;
-	background: #F2F7F3;
+	background: #e8ede9;
     left: 50%;
 	transform: translateX(-50%);
 	border-radius: 15px;
@@ -76,6 +76,7 @@ body {
 	background-color: white;
 }
 
+
 h2 {
 	font-family: 'Raleway';
 	font-size:300%;
@@ -85,7 +86,7 @@ h2 {
 
 p {
 	font-family: 'Montserrat';
-	font-size: 15px;
+	font-size: 14.5px;
 	color: #2b3b0d;
 }
 
@@ -107,7 +108,7 @@ ul {
 	text-align: center;
 }
 
-a {
+.home-link {
 	color: white;
 	text-decoration: none;
 	height: 10px;
@@ -115,6 +116,12 @@ a {
 	font-size: 20px;
 }
 
-a:hover {
+.home-link:hover {
 	color: grey;
+}
+.exp-link {
+	color:#475233;
+}
+.exp-link:hover {
+	color: #a8be7e;
 }
