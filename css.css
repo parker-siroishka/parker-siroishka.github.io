@@ -56,6 +56,10 @@ body {
 	color:#79895b;
 }
 
+.inline-header {
+	display: inline;
+}
+
 .aside {
 	margin-left: 10px;
 	font-weight: 600;
@@ -74,6 +78,18 @@ body {
 	width: 400px;
 	height: 1px;
 	background-color: white;
+}
+
+.fouriiii-logo {
+	margin-left: 50px;
+	width: 10%;
+	height: 10%;
+	border-radius: 8%;
+}
+.benchmark-logo {
+	margin-left: 50px;
+	width: 15%;
+	height: 15%;
 }
 
 
