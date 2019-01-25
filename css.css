@@ -45,6 +45,7 @@ body {
     left: 50%;
 	transform: translateX(-50%);
 	border-radius: 15px;
+	margin-top: 0px;
 }
 
 .container-contents {
@@ -114,14 +115,32 @@ h3, h4{
 
 }
 
-li {
+.home-navbar-el {
 	display: inline;
 	padding-right: 40px;
 	font-family: 'Montserrat';
 }
 
-ul {
+.other-navbar-el {
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+.nav-side {
+	float: left;
+}
+
+.nav-image {
+	height: 40%;
+	width: 40%;
+}
+
+.home-navbar {
 	text-align: center;
+}
+
+.other-navbar {
+
 }
 
 .home-link {
