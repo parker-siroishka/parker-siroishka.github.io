@@ -93,6 +93,24 @@ body {
 	height: 15%;
 }
 
+.cfs-logo {
+	max-height: 9%;
+	max-width: 9%;
+	border-radius: 8%;
+	margin-left: 10px;
+}
+
+.dinos-logo {
+	height: 7%;
+	width: 7%;
+	margin-left: 10px;
+}
+
+.uc-logo {
+	height: 10%;
+	width: 10%;
+}
+
 
 h2 {
 	font-family: 'Raleway';
@@ -119,6 +137,8 @@ h3, h4{
 	display: inline;
 	padding-right: 40px;
 	font-family: 'Montserrat';
+	list-style-type: none;	
+	text-align: center;
 }
 
 .other-navbar-el {
@@ -130,13 +150,27 @@ h3, h4{
 	float: left;
 }
 
-.nav-image {
+.exp-nav-image {
 	height: 40%;
 	width: 40%;
 }
 
+.index-nav-image {
+	height: 3%;
+	width: 3%;
+}
+.hover-image:hover {
+
+	transform: scale(1.15);
+}
+
 .home-navbar {
-	text-align: center;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.image-text {
+	display: inline-block;
 }
 
 .other-navbar {
@@ -160,3 +194,8 @@ h3, h4{
 .exp-link:hover {
 	color: #a8be7e;
 }
+
+.nested-ul {
+	list-style: none;
+}
+
