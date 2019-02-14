@@ -13,7 +13,11 @@ $(document).ready(function() {
 	});
 	$("#CE").click(function() {
 		let val = document.getElementById("expression").value;
-		document.getElementById("expression").value = val.substring(0, val.length-1);
+		if (val === "Invalid Expression!") {
+			document.getElementById("expression").value = "";
+		}else {
+			document.getElementById("expression").value = val.substring(0, val.length-1);
+		}
 	});
 	$("#lb").click(function() {
 		let val = document.getElementById("expression").value;
