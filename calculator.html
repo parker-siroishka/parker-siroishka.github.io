@@ -5,46 +5,45 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0;">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet"  type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
+	
+
 </head>
 <body>
 	<div class="calc-container">
-		<table class="table-borderless fill">
-			<tr>
-				<td colspan="4" >
-					<input type="text" class="input-text btn-block" id="expression">
-				</td>
-			</tr>
-			<tr>
-				<td><input class="btn btn-primary btn-block" type="button"value="("></td>
-				<td><input class="btn btn-primary btn-block" type="button"value=")"></td>
-				<td colspan="2"><input class="btn btn-primary btn-block" type="button" value="C" onclick="clear()"></td>
-			</tr>
-			<tr>
-				<td><input class="btn btn-primary btn-block" type="button"value="7"></td>
-				<td><input class="btn btn-primary btn-block" type="button"value="8"></td>
-				<td><input class="btn btn-primary btn-block" type="button"value="9"></td>
-				<td><input class="btn btn-primary btn-block" type="button"value="/"></td>
-			</tr>
-			<tr>
-				<td><input class="btn btn-primary btn-block" type="button"value="4"></td>
-				<td><input class="btn btn-primary btn-block" type="button"value="5"></td>
-				<td><input class="btn btn-primary btn-block" type="button"value="6"></td>
-				<td><input class="btn btn-primary btn-block" type="button"value="X"></td>
-			</tr>
-			<tr>
-				<td><input class="btn btn-primary btn-block" type="button"value="1"></td>
-				<td><input class="btn btn-primary btn-block" type="button"value="2"></td>
-				<td><input class="btn btn-primary btn-block" type="button"value="3"></td>
-				<td><input class="btn btn-primary btn-block" type="button"value="-"></td>
-			</tr>
-			<tr>
-				<td><input class="btn btn-primary btn-block"  type="button"value="0"></td>
-				<td><input class="btn btn-primary btn-block"  type="button"value="."></td>
-				<td><input class="btn btn-primary btn-block" type="button"value="=" onclick="calculate()"></td>
-				<td><input class="btn btn-primary btn-block"  type="button"value="+"></td>
-			</tr>
-		</table>
-
+		<input type="text" class="input-text btn-block" id="expression">
+		<div>
+				<input id="lb" class="btn btn-primary button" type="button"value="(">
+				<input id="rb" class="btn btn-primary button" type="button"value=")">
+				<input id="CE" class="btn btn-primary button" type="button" value="CE">
+				<input id="C" class="btn btn-primary button" type="button" value="C">
+		</div>
+		<div>
+				<input id="7" class="btn btn-primary button" type="button"value="7">
+				<input id="8" class="btn btn-primary button" type="button"value="8">
+				<input id="9" class="btn btn-primary button" type="button" value="9">
+				<input id="div" class="btn btn-primary button" type="button" value="/">
+		</div>
+		<div>
+				<input id="4" class="btn btn-primary button" type="button"value="4">
+				<input id="5" class="btn btn-primary button" type="button"value="5">
+				<input id="6" class="btn btn-primary button" type="button" value="6">
+				<input id="mult" class="btn btn-primary button" type="button" value="X">
+		</div>
+		<div>
+				<input id="1" class="btn btn-primary button" type="button"value="1">
+				<input id="2" class="btn btn-primary button" type="button"value="2">
+				<input id="3" class="btn btn-primary button" type="button" value="3">
+				<input id="sub" class="btn btn-primary button" type="button" value="-">
+		</div>
+		<div>
+				<input id="0" class="btn btn-primary button" type="button"value="0">
+				<input id="dec" class="btn btn-primary button" type="button"value=".">
+				<input id="equals" class="btn btn-primary button" type="button" value="=">
+				<input id="add" class="btn btn-primary button" type="button" value="+">
+		</div>
+	</div>
+	
 </body>
 </html>
