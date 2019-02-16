@@ -3,8 +3,10 @@ $(document).ready(function() {
 		let val = document.getElementById("expression").value;
 		try {
 			document.getElementById("expression").value = eval(val); 
+			document.getElementById("expression-answer-text").innerHTML = val + "=" +eval(val).toString();
 		}catch (e) {
 		document.getElementById("expression").value = "Invalid Expression!";
+		document.getElementById("expression-answer-text").innerHTML = val + "=ERROR";
 		}
 	}); 
 	// Row 1
