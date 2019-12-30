@@ -1,0 +1,24 @@
+.nav-link{
+    color: #333366;
+    font-size: 1.25rem;
+    transition: 0.7s;
+    border-radius: 15px;
+    margin-right: 1rem;
+    font-family: 'Quicksand', sans-serif;
+
+    
+}
+
+.nav-link:hover{
+    background-color: rgb(222, 222, 231, 0.65);
+    color: black;
+    font-size: 1.25rem;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    color: #333366;
+    font-size: 2.5rem;
+    font-family: 'Quicksand', sans-serif;
+
+}
