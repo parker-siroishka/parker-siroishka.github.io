@@ -9,16 +9,31 @@
     
 }
 
-.nav-link:hover{
+.nav-link:hover {
     background-color: rgb(222, 222, 231, 0.65);
     color: black;
     font-size: 1.25rem;
     border-radius: 5px;
 }
 
+.nav-link:active {
+    background-color: rgb(84, 84, 90);
+    transition: 0.15s;
+}
+
 .navbar-brand {
     color: #333366;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'Quicksand', sans-serif;
 
 }
+
+@media only screen 
+and (max-device-width: 750px)
+{
+    .navbar-brand {
+        font-size: 1.2rem;
+        
+    }
+}
+
