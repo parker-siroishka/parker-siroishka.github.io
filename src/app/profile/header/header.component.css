@@ -1,5 +1,5 @@
 .nav-link{
-    color: #333366;
+    color: #36353A;
     font-size: 1.25rem;
     transition: 0.7s;
     border-radius: 15px;
@@ -10,8 +10,8 @@
 }
 
 .nav-link:hover {
-    background-color: rgb(222, 222, 231, 0.65);
-    color: black;
+    background-color: rgb(115,113,114, 0.6);
+    color: white;
     font-size: 1.25rem;
     border-radius: 5px;
 }
@@ -22,7 +22,7 @@
 }
 
 .navbar-brand {
-    color: #333366;
+    color: #787897;
     font-size: 2rem;
     font-family: 'Quicksand', sans-serif;
 
@@ -32,7 +32,7 @@
 and (max-device-width: 750px)
 {
     .navbar-brand {
-        font-size: 1.2rem;
+        font-size: 0px;
         
     }
 }

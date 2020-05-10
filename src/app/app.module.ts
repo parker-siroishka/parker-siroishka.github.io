@@ -8,7 +8,6 @@ import { ProfileModule } from './profile/profile.module';
 import { HttpClientModule } from '@angular/common/http';
 import { Profile } from 'selenium-webdriver/firefox';
 
-
 const routes: Routes = [
   {
     path: '',
